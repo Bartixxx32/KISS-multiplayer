@@ -20,7 +20,7 @@ quinn = "0.7.1"
 webpki = "0.22"
 anyhow = "1.0.32"
 reqwest = { version = "0.11", default-features = false, features=["rustls-tls"] }
-tiny_http="0.8"
+tiny_http="0.11"
 tokio-stream="0.1.5"
 rustls = { version = "0.19", features = ["dangerous_configuration"] }
 tokio = { version = "1.4", features = ["time", "macros", "sync", "io-util", "net"] }
